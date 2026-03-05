@@ -16,4 +16,4 @@ def test_negative_quantity():
         calculate_total("coffee", -1)
 
 def test_process_payment_negative_amount():
-    assert process_payment(-100) is False
+    assert process_payment(-100) is False 21
